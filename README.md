@@ -8,6 +8,12 @@ Yarn Berry plugin to enforce Node version.
 $ yarn plugin import https://raw.githubusercontent.com/devoto13/yarn-plugin-engines/main/bundles/%40yarnpkg/plugin-engines.js
 ```
 
+## Plugin name
+
+```
+@yarnpkg/plugin-engines
+```
+
 ## Usage
 
 Specify the desired Node version constraint using `engines.node` field and the plugin will fail installation if the current Node version does not satisfy it:
